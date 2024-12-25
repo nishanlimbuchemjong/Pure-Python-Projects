@@ -1,3 +1,4 @@
+import json
 
 class ToDoList:
     def __init__(self):
@@ -29,7 +30,25 @@ class ToDoList:
             print(f"Task {remove_task['task']} deleted successfully")
         except IndexError:
             print("Invalid task number!!!")
-        
+    
+    def save_to_file(self, file_name = 'tasks.json'):
+        try:
+            with open(file_name, "w") as file:
+                json.dump(self.tasks, file, indent=4)
+            print("Tasks saved successfully!")
+        except IOError:
+            print("Error saving tasks to file!")
+    
+    def load_from_file(self, file_name="tasks.json"):
+        try:
+            with open(file_name, "r") as file:
+                self.tasks = json.load(file)
+            print("Tasks loaded successfully!")
+        except FileNotFoundError:
+            print("No saved tasks found!")
+        except json.JSONDecodeError:
+            print("Error reading tasks file!")
+
 def main():
     todo = ToDoList()
 
@@ -64,6 +83,13 @@ def main():
                 todo.delete_task(task_num)
             except ValueError:
                 print("Invalid task number!!!")
+        elif choice == "5":
+            todo.save_to_file()
+        elif choice == "6":
+            todo.load_from_file()
+        elif choice == "7":
+            print("Exiting the To-Do List App. Goodbye!")
+            break
         else:
             print("Invalid choice! Please try again.")
 
