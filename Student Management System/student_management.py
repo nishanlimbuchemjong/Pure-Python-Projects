@@ -47,6 +47,14 @@ class StudentManagementSystem:
             print(f"Student Id {std_id} doesn't exist")
         else:
             self.students[std_id].update_student_info(name, age, address, grade)
+
+    def delete_student(self, std_id):
+        if std_id not in self.students:
+            print(f"Student Id {std_id} doesn't exist")
+        else:
+            del self.students[std_id]
+            print(f"Student Id {std_id} deleted successfully")
+
 def main():
     sms = StudentManagementSystem()
 
@@ -82,6 +90,9 @@ def main():
             address = input("Enter student address (or leave it blank): ") or None
             grade = input("Enter student grade (or leave it blank): ") or None
             sms.update_student(id, name, age, address, grade)
+        elif choice == '5':
+            id = input("Enter student id: ")
+            sms.delete_student(id)
         else:
             print("Invalid Choice!!!")
 
