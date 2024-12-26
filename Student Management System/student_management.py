@@ -93,6 +93,9 @@ def main():
         elif choice == '5':
             id = input("Enter student id: ")
             sms.delete_student(id)
+        elif choice == '6':
+            print("Exiting student management system .....")
+            break
         else:
             print("Invalid Choice!!!")
 
