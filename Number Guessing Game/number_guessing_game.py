@@ -4,7 +4,7 @@ def numberGuessingGame():
     lower = 0
     upper = 100
 
-    attempts = 5
+    attempts = 10
     exact_number = random.randint(lower, upper)
 
     print("\nWelcome to Number Guessing Game")
