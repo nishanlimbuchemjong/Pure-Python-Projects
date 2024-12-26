@@ -15,7 +15,7 @@ class StudentManagementSystem:
         if std_id in self.students:
             print(f" Student Id '{std_id}' already exists.")
         else:
-            self.students['std_id'] = Student(std_id, name, address, age, grade)
+            self.students[std_id] = Student(std_id, name, address, age, grade)
             print(f" Student '{name}' added successfully.")
     def view_all_students(self):
         if not self.students:
@@ -24,6 +24,13 @@ class StudentManagementSystem:
             print("Student List:")
             for student in self.students.values():
                 print(f"{student.name}")
+    def view_student_detail(self, std_id):
+        if std_id not in self.students:
+            print(f"Student Id {std_id} not found!!!")
+        else:
+            print(f"\nStudent Detail of Student Id: {std_id}\n")
+            student = self.students[std_id]
+            print(f"Student ID: {student.std_id}\nStudent Name: {student.name}\nStudent Age: {student.age}\nStudent Address: {student.address}\nStudent Grade: {student.grade}")
 
 def main():
     sms = StudentManagementSystem()
@@ -50,6 +57,9 @@ def main():
             sms.add_student(id, name, age, address, grade)
         elif choice == '2':
             sms.view_all_students()
+        elif choice == '3':
+            id = input("Enter student id: ")
+            sms.view_student_detail(id)
         else:
             print("Invalid Choice!!!")
 
