@@ -6,7 +6,17 @@ class Student:
         self.address = address
         self.grade = grade
     
-    
+    def update_student_info(self, name=None, age=None, address=None, grade=None):
+        if name:
+            self.name = name
+        if age:
+            self.age = age 
+        if address:
+            self.address = address
+        if grade:
+            self.grade = grade
+        print("Student information updated successfully")
+            
 class StudentManagementSystem:
     def __init__(self):
         self.students = {}
@@ -31,7 +41,12 @@ class StudentManagementSystem:
             print(f"\nStudent Detail of Student Id: {std_id}\n")
             student = self.students[std_id]
             print(f"Student ID: {student.std_id}\nStudent Name: {student.name}\nStudent Age: {student.age}\nStudent Address: {student.address}\nStudent Grade: {student.grade}")
-
+    
+    def update_student(self, std_id, name=None, age=None, address=None, grade=None):
+        if std_id not in self.students:
+            print(f"Student Id {std_id} doesn't exist")
+        else:
+            self.students[std_id].update_student_info(name, age, address, grade)
 def main():
     sms = StudentManagementSystem()
 
@@ -60,6 +75,13 @@ def main():
         elif choice == '3':
             id = input("Enter student id: ")
             sms.view_student_detail(id)
+        elif choice == '4':
+            id = input("Enter student id: ")
+            name = input("Enter student name (or leave it blank): ") or None
+            age = input("Enter student age (or leave it blank): ") or None
+            address = input("Enter student address (or leave it blank): ") or None
+            grade = input("Enter student grade (or leave it blank): ") or None
+            sms.update_student(id, name, age, address, grade)
         else:
             print("Invalid Choice!!!")
 
