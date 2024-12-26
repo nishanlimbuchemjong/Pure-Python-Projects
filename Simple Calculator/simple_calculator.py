@@ -47,8 +47,20 @@ def main():
                 elif (choice == '2'):
                     result = cal.subtract(num1, num2)
                     print(f"\nResult:\nSubtraction of {num1} and {num2} = {result}")
+                elif (choice == '3'):
+                    result = cal.multiply(num1, num2)
+                    print(f"\nResult:\nMultiplication of {num1} and {num2} = {result}")
+                elif (choice == '4'):
+                    result = cal.divide(num1, num2)
+                    print(f"\nResult:\nDivision of {num1} and {num2} = {result}")
+                elif (choice == '5'):
+                    result = cal.modulus(num1, num2)
+                    print(f"\nResult:\nRemainder of {num1} and {num2} = {result}")
             except ValueError:
                 print("Invalid Choices!!!")
+        elif (choice == '6'):
+            print("Existing Calculator .......")
+            break
         else:
             print("Invalid Choices!!!")
 
