@@ -1,0 +1,16 @@
+[
+    {
+        "username": "nishan",
+        "pin": "0000",
+        "balance": 1045343.3430000001,
+        "transactions": [
+            "Deposted +50000",
+            "Deposted +1000000",
+            "Deposted +2343.343",
+            "Withdraw -5000.0",
+            "Transfered -500.0 \n\tSender: nishan \n\tReceiver: limbu",
+            "Transfered -500.0 \n\tSender: nishan \n\tReceiver: subekshya",
+            "Transfered -1000.0 \n\tSender: nishan \n\tReceiver: dipa limbu"
+        ]
+    }
+]
