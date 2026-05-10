@@ -1,25 +1,25 @@
-# Pure-Python-Projects 🚀
+# Pure-Python-Projects 
 
-Welcome to **Pure-Python-Projects**! 🎉
+Welcome to **Pure-Python-Projects**! 
 
 This repository contains various fun and educational projects built using **Python Programming Language**, utilizing only Python's built-in capabilities and standard libraries.
 
 ---
 
-## 📌 Projects in this Repository:
+## Projects in this Repository:
 
-### 🎲 Number Guessing Game
+### 1. Number Guessing Game
 A simple game where you guess a number within a range.  
 (Uses the `random` module)
 
 ---
 
-### 🎓 Student Management System
+### 2. Student Management System
 Manage students by adding, viewing, and updating their details.
 
 ---
 
-### 🧠 Quiz Game
+### 3. Quiz Game
 A quiz application where users can:
 - Add questions
 - Store them in a JSON file
@@ -29,7 +29,7 @@ A quiz application where users can:
 
 ---
 
-### 📝 To Do List
+### 4. To Do List
 A basic task management system to:
 - Add tasks
 - Remove tasks
@@ -38,7 +38,7 @@ A basic task management system to:
 
 ---
 
-### 🧮 Simple Calculator
+### 5. Simple Calculator
 Performs basic arithmetic operations:
 - Addition
 - Subtraction
@@ -47,11 +47,11 @@ Performs basic arithmetic operations:
 
 ---
 
-### 🏦 ATM Simulator System ⭐ (Major Project)
+### 6. ATM Simulator System (Major Project)
 
 A terminal-based banking system built using pure Python.
 
-#### 🔑 Features:
+#### Features:
 - User Registration with PIN creation
 - Secure Login system (username + PIN)
 - Check account balance
@@ -63,22 +63,9 @@ A terminal-based banking system built using pure Python.
 - Logout system
 - Persistent data storage using JSON
 
-#### 💡 Key Concepts Used:
-- File handling (`json`)
-- Loops and conditionals
-- Functions
-- User authentication logic
-- Session-based system design
-
-#### 🎯 Project Highlights:
-This project simulates a real-world ATM system and demonstrates:
-- Data persistence
-- Banking operations logic
-- Secure user authentication flow
-
 ---
 
-## 🚀 How to Run:
+## How to Run:
 
 1. Clone this repository:
 ```bash
