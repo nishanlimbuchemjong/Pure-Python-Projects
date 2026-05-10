@@ -1,0 +1,237 @@
+[
+    {
+        "question": "What is the capital city of Nepal?",
+        "options": ["Kathmandu", "Delhi", "Lalitpur", "Bhaktapur"],
+        "answer": "Kathmandu"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Venus"],
+        "answer": "Mars"
+    },
+    {
+        "question": "Who invented the light bulb?",
+        "options": ["Thomas Edison", "Newton", "Einstein", "Tesla"],
+        "answer": "Thomas Edison"
+    },
+    {
+        "question": "Which is the largest ocean in the world?",
+        "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+        "answer": "Pacific"
+    },
+    {
+        "question": "Which country won the FIFA World Cup 2018?",
+        "options": ["Germany", "Brazil", "France", "Argentina"],
+        "answer": "France"
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "options": ["Lion", "Cheetah", "Tiger", "Leopard"],
+        "answer": "Cheetah"
+    },
+    {
+        "question": "Which gas do plants absorb?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "answer": "Carbon Dioxide"
+    },
+    {
+        "question": "Who is known as the father of computers?",
+        "options": ["Charles Babbage", "Alan Turing", "Bill Gates", "Steve Jobs"],
+        "answer": "Charles Babbage"
+    },
+    {
+        "question": "Which country is known as the Land of Rising Sun?",
+        "options": ["China", "Japan", "Thailand", "India"],
+        "answer": "Japan"
+    },
+    {
+        "question": "Which sport is known as the king of sports?",
+        "options": ["Cricket", "Football", "Basketball", "Tennis"],
+        "answer": "Football"
+    },
+    {
+        "question": "What is the boiling point of water?",
+        "options": ["90°C", "100°C", "120°C", "80°C"],
+        "answer": "100°C"
+    },
+    {
+        "question": "Which is the largest continent?",
+        "options": ["Africa", "Asia", "Europe", "Australia"],
+        "answer": "Asia"
+    },
+    {
+        "question": "Who discovered gravity?",
+        "options": ["Newton", "Einstein", "Galileo", "Tesla"],
+        "answer": "Newton"
+    },
+    {
+        "question": "Which country hosted the 2022 FIFA World Cup?",
+        "options": ["Qatar", "Russia", "Brazil", "USA"],
+        "answer": "Qatar"
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "2"
+    },
+    {
+        "question": "Which metal is liquid at room temperature?",
+        "options": ["Iron", "Mercury", "Gold", "Silver"],
+        "answer": "Mercury"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Van Gogh", "Leonardo da Vinci", "Picasso", "Michelangelo"],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "Which is the longest river in the world?",
+        "options": ["Amazon", "Nile", "Ganga", "Yangtze"],
+        "answer": "Nile"
+    },
+    {
+        "question": "Which country is famous for the Eiffel Tower?",
+        "options": ["Italy", "France", "Spain", "Germany"],
+        "answer": "France"
+    },
+    {
+        "question": "What is H2O commonly known as?",
+        "options": ["Salt", "Water", "Oxygen", "Hydrogen"],
+        "answer": "Water"
+    },
+    {
+        "question": "Which sport uses a shuttlecock?",
+        "options": ["Tennis", "Badminton", "Cricket", "Table Tennis"],
+        "answer": "Badminton"
+    },
+    {
+        "question": "Which planet is closest to the Sun?",
+        "options": ["Mercury", "Venus", "Earth", "Mars"],
+        "answer": "Mercury"
+    },
+    {
+        "question": "Who invented the telephone?",
+        "options": ["Bell", "Edison", "Tesla", "Newton"],
+        "answer": "Alexander Graham Bell"
+    },
+    {
+        "question": "Which country has the Great Wall?",
+        "options": ["India", "China", "Japan", "Korea"],
+        "answer": "China"
+    },
+    {
+        "question": "What is the square root of 64?",
+        "options": ["6", "7", "8", "9"],
+        "answer": "8"
+    },
+    {
+        "question": "Which is the tallest mountain in the world?",
+        "options": ["K2", "Everest", "Kangchenjunga", "Makalu"],
+        "answer": "Mount Everest"
+    },
+    {
+        "question": "Which sport is played at Wimbledon?",
+        "options": ["Football", "Cricket", "Tennis", "Golf"],
+        "answer": "Tennis"
+    },
+    {
+        "question": "Which country invented paper?",
+        "options": ["India", "China", "Egypt", "Greece"],
+        "answer": "China"
+    },
+    {
+        "question": "What is the main language spoken in Brazil?",
+        "options": ["Spanish", "Portuguese", "English", "French"],
+        "answer": "Portuguese"
+    },
+    {
+        "question": "Which organ pumps blood in the human body?",
+        "options": ["Brain", "Liver", "Heart", "Lungs"],
+        "answer": "Heart"
+    },
+    {
+        "question": "Which country is famous for pizza?",
+        "options": ["France", "Italy", "USA", "Spain"],
+        "answer": "Italy"
+    },
+    {
+        "question": "Which sport uses a bat and ball and wickets?",
+        "options": ["Football", "Cricket", "Baseball", "Hockey"],
+        "answer": "Cricket"
+    },
+    {
+        "question": "Who developed the theory of relativity?",
+        "options": ["Newton", "Einstein", "Galileo", "Tesla"],
+        "answer": "Einstein"
+    },
+    {
+        "question": "Which is the largest desert in the world?",
+        "options": ["Sahara", "Gobi", "Thar", "Arctic"],
+        "answer": "Sahara"
+    },
+    {
+        "question": "Which planet has rings around it?",
+        "options": ["Earth", "Mars", "Saturn", "Venus"],
+        "answer": "Saturn"
+    },
+    {
+        "question": "Which country is known for sushi?",
+        "options": ["China", "Japan", "Korea", "Thailand"],
+        "answer": "Japan"
+    },
+    {
+        "question": "Which sport is Michael Jordan famous for?",
+        "options": ["Football", "Basketball", "Tennis", "Baseball"],
+        "answer": "Basketball"
+    },
+    {
+        "question": "Which gas is most abundant in Earth's atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "answer": "Nitrogen"
+    },
+    {
+        "question": "What is the currency of USA?",
+        "options": ["Euro", "Dollar", "Yen", "Rupee"],
+        "answer": "Dollar"
+    },
+    {
+        "question": "Which animal is known as the king of jungle?",
+        "options": ["Tiger", "Elephant", "Lion", "Leopard"],
+        "answer": "Lion"
+    },
+    {
+        "question": "Which country hosted the Olympics 2020?",
+        "options": ["China", "Japan", "Brazil", "UK"],
+        "answer": "Japan"
+    },
+    {
+        "question": "What is the speed of light?",
+        "options": ["300,000 km/s", "150,000 km/s", "1,000 km/s", "3,000 km/s"],
+        "answer": "300,000 km/s"
+    },
+    {
+        "question": "Which instrument measures earthquakes?",
+        "options": ["Thermometer", "Barometer", "Seismograph", "Hygrometer"],
+        "answer": "Seismograph"
+    },
+    {
+        "question": "Which country is famous for pyramids?",
+        "options": ["India", "Egypt", "Mexico", "Peru"],
+        "answer": "Egypt"
+    },
+    {
+        "question": "Which sport is known as gentleman's game?",
+        "options": ["Football", "Cricket", "Golf", "Tennis"],
+        "answer": "Cricket"
+    },
+    {
+        "question": "Who is the founder of Microsoft?",
+        "options": ["Steve Jobs", "Bill Gates", "Elon Musk", "Larry Page"],
+        "answer": "Bill Gates"
+    },
+    {
+        "question": "Which is the largest mammal in the world?",
+        "options": ["Elephant", "Blue Whale", "Shark", "Giraffe"],
+        "answer": "Blue Whale"
+    }
+]
