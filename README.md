@@ -8,6 +8,7 @@ This repository contains various fun and educational projects built using **Pyth
 
 - **Number Guessing Game**: A simple game where you guess a number within a range. (Uses the `random` module)
 - **Student Management System**: Manage students by adding, viewing, and updating their details.
+- **Quiz Game**: A simple quiz game where a user can add a quesitons, and then also can take a quiz. The added questions are stored on json file.
 - **To Do List**: A basic to-do list application to keep track of tasks. (Uses the `json` module)
 - **Simple Calculator**: Perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 
