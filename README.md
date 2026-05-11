@@ -76,10 +76,8 @@ A real-time currency conversion tool that fetches the latest exchange rates usin
 - Handles invalid currency inputs
 - Displays results with proper decimal formatting
 
-#### Technologies Used:
-- Python
-- `requests` module (API calls)
-- ExchangeRate API
+
+---
 
 ## How to Run:
 
