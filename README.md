@@ -65,6 +65,22 @@ A terminal-based banking system built using pure Python.
 
 ---
 
+### 7. Currency Converter (Live API)
+
+A real-time currency conversion tool that fetches the latest exchange rates using an external API.
+
+#### Features:
+- Convert between multiple international currencies
+- Uses live exchange rates (no hardcoding)
+- Supports dynamic user input (currency + amount)
+- Handles invalid currency inputs
+- Displays results with proper decimal formatting
+
+#### Technologies Used:
+- Python
+- `requests` module (API calls)
+- ExchangeRate API
+
 ## How to Run:
 
 1. Clone this repository:
